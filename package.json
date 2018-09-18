@@ -1,5 +1,5 @@
 {
-  "name": "NodeExpressMongoSeed",
+  "name": "triangoolateapi",
   "version": "1.0.0",
   "author": "Williams Olivera <liamsolivera@gmail.com>",
   "description": "API model for node js + express + mongodb application based",
@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "async": "1.4.2",
-    "bcrypt": "0.8.5",
+    "bcrypt": "^3.0.0",
     "body-parser": "1.13.3",
     "connect-flash": "0.1.1",
     "cookie-parser": "1.3.4",
@@ -18,20 +18,29 @@
     "express": "4.13.3",
     "express-session": "1.10.3",
     "express-swagger": "0.0.2",
+    "moment": "2.10.6",
     "mongoose": "4.1.11",
     "mongoskin": "1.4.12",
     "node-uuid": "^1.4.3",
-    "redis": "2.2.3",
-    "superagent": "0.21.0",
     "passport": "0.2.1",
-    "moment": "2.10.6"
+    "redis": "2.2.3",
+    "superagent": "0.21.0"
   },
   "devDependencies": {
-    "chai" : "3.3.0",
-    "mocha" : "2.3.3"
+    "chai": "3.3.0",
+    "mocha": "2.3.3"
   },
   "main": "app.js",
   "engines": {
     "node": "0.10.x"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mannyOE/triangoolate-apis.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mannyOE/triangoolate-apis/issues"
+  },
+  "homepage": "https://github.com/mannyOE/triangoolate-apis#readme"
 }
