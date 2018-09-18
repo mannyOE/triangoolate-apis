@@ -32,7 +32,7 @@ router.route(app);
 app.set('port', config.server.port);
 
 app.listen(app.get('port'), function() {
-	console.log('Server listenting on ' + process.pid + " and port " + app.get('port'));
+	console.log('Server listenting on  port ' + app.get('port'));
 });
 
 // export app so we can test it

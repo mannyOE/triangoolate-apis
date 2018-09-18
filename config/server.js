@@ -16,7 +16,7 @@ exports.config = function(app){
 	app.set('port', config.server.port);
 	app.use(cookieParser());
 	app.use(session({
-		secret: 'node-express-mongo-seed-secret',
+		secret: 'triangoolate-secret',
 		saveUninitialized: true,
 		resave: true
 	}));
